@@ -25,12 +25,11 @@ This setup is a practical example of how DevOps automation works in real life.
 ## Project Structure
 
 flask-ci-cd-pipeline/
-│
-├── app/
-│ ├── app.py # Flask application
-│ ├── requirements.txt # Dependencies
-│ └── test_app.py # Unit tests
-│
+── app/
+ ─ app.py # Flask application
+ ├── requirements.txt # Dependencies
+ └── test_app.py # Unit tests
+
 ├── Dockerfile # Docker build instructions
 └── .github/
 └── workflows/
